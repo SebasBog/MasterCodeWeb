@@ -1,24 +1,23 @@
 User-agent: *
 Allow: /
 
-# Páginas de sistema (noindex también en meta)
+# System pages (noindex also set in meta)
 Disallow: /pages/success.html
 Disallow: /pages/cancel.html
 Disallow: /pages/checkout-pro.html
 Disallow: /pages/checkout-basico.html
 Disallow: /pages/checkout-premium.html
 
-# Demos (noindex en meta + bloqueadas a crawlers para ahorrar crawl budget)
-Disallow: /pages/demos/
+# Demos (noindex in meta; crawling allowed so search engines can read the noindex directive)
 
-# Archivos de referencia interna (bloqueados también por .htaccess)
+# Internal reference files (also blocked by .htaccess)
 Disallow: /_templates/
 
-# Rutas administrativas
+# Administrative routes
 Disallow: /admin/
 Disallow: /private/
 
-# API y logs — nunca indexar
+# API and logs — never index
 Disallow: /api/
 Disallow: /logs/
 

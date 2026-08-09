@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <!-- PÁGINA PRINCIPAL -->
+  <!-- HOMEPAGE -->
   <url>
     <loc>https://www.mastercodeweb.com/</loc>
     <lastmod>2026-06-14</lastmod>
@@ -9,7 +9,7 @@
     <priority>1.0</priority>
   </url>
 
-  <!-- PÁGINAS PRINCIPALES -->
+  <!-- MAIN PAGES -->
   <url>
     <loc>https://www.mastercodeweb.com/pages/sobre-nosotros.html</loc>
     <lastmod>2026-05-22</lastmod>
@@ -24,7 +24,7 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- PORTFOLIO POR SECTORES -->
+  <!-- PORTFOLIO BY SECTOR -->
   <url>
     <loc>https://www.mastercodeweb.com/pages/portfolio/salud.html</loc>
     <lastmod>2026-05-24</lastmod>
@@ -58,77 +58,6 @@
     <lastmod>2026-05-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-  </url>
-
-  <!-- DEMOS (noindex — referencia interna) -->
-  <url>
-    <loc>https://www.mastercodeweb.com/pages/demos/restaurante-malaga.html</loc>
-    <lastmod>2026-05-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://www.mastercodeweb.com/pages/demos/clinica-dental.html</loc>
-    <lastmod>2026-05-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://www.mastercodeweb.com/pages/demos/tienda-gourmet.html</loc>
-    <lastmod>2026-05-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://www.mastercodeweb.com/pages/demos/electricista-malaga.html</loc>
-    <lastmod>2026-05-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://www.mastercodeweb.com/pages/demos/landing-saas.html</loc>
-    <lastmod>2026-05-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://www.mastercodeweb.com/pages/demos/centro-deportivo.html</loc>
-    <lastmod>2026-05-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://www.mastercodeweb.com/pages/demos/inmobiliaria.html</loc>
-    <lastmod>2026-05-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://www.mastercodeweb.com/pages/demos/bufete-legal.html</loc>
-    <lastmod>2026-05-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://www.mastercodeweb.com/pages/demos/construccion.html</loc>
-    <lastmod>2026-05-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://www.mastercodeweb.com/pages/demos/amazon-afiliados.html</loc>
-    <lastmod>2026-05-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
 
   <url>
@@ -173,7 +102,7 @@
     <priority>0.7</priority>
   </url>
 
-  <!-- LANDING PAGES SEO LOCAL -->
+  <!-- LOCAL SEO LANDING PAGES -->
   <url>
     <loc>https://www.mastercodeweb.com/pages/diseno-web-malaga.html</loc>
     <lastmod>2026-06-14</lastmod>
@@ -216,7 +145,7 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- LANDING PAGES SEO LOCAL — CIUDADES -->
+  <!-- LOCAL SEO LANDING PAGES — CITIES -->
   <url>
     <loc>https://www.mastercodeweb.com/pages/diseno-web-marbella.html</loc>
     <lastmod>2026-06-15</lastmod>
@@ -259,7 +188,7 @@
     <priority>0.7</priority>
   </url>
 
-  <!-- PÁGINAS DE SERVICIOS -->
+  <!-- SERVICE PAGES -->
   <url>
     <loc>https://www.mastercodeweb.com/servicios/diseno-web-profesional.html</loc>
     <lastmod>2026-05-14</lastmod>
@@ -296,7 +225,7 @@
     <priority>0.7</priority>
   </url>
 
-  <!-- GUÍAS — ÍNDICES -->
+  <!-- GUIDES — INDEXES -->
   <url>
     <loc>https://www.mastercodeweb.com/guias/index.html</loc>
     <lastmod>2026-05-14</lastmod>
@@ -325,7 +254,7 @@
     <priority>0.7</priority>
   </url>
 
-  <!-- GUÍAS — DISEÑO WEB -->
+  <!-- GUIDES — WEB DESIGN -->
   <url>
     <loc>https://www.mastercodeweb.com/guias/diseno-web/diseno-web-malaga.html</loc>
     <lastmod>2026-05-14</lastmod>
@@ -389,7 +318,7 @@
     <priority>0.6</priority>
   </url>
 
-  <!-- GUÍAS — SEO -->
+  <!-- GUIDES — SEO -->
   <url>
     <loc>https://www.mastercodeweb.com/guias/seo/seo-tecnico-web.html</loc>
     <lastmod>2026-05-14</lastmod>
@@ -418,7 +347,7 @@
     <priority>0.6</priority>
   </url>
 
-  <!-- GUÍAS — NEGOCIO ONLINE -->
+  <!-- GUIDES — ONLINE BUSINESS -->
   <url>
     <loc>https://www.mastercodeweb.com/guias/negocio-online/conseguir-clientes-web.html</loc>
     <lastmod>2026-05-14</lastmod>
