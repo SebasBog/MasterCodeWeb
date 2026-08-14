@@ -22,7 +22,7 @@ export function initBreadcrumbs() {
   // Inicio siempre
   const homeItem = document.createElement("li");
   const homeLink = document.createElement("a");
-  homeLink.href = "/index.html";
+  homeLink.href = "/";
   homeLink.textContent = "Inicio";
   homeItem.appendChild(homeLink);
 

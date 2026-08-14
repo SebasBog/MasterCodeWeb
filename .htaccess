@@ -65,6 +65,11 @@ Options -Indexes
   RewriteCond %{REQUEST_URI} ^/api/webhook\.php$
   RewriteRule ^ - [L]
 
+  # Remove explicit index.html from canonical URLs.
+  # THE_REQUEST prevents redirects caused by Apache DirectoryIndex resolution.
+  RewriteCond %{THE_REQUEST} \s/+(.*/)?index\.html(?:[?\s]) [NC]
+  RewriteRule ^(.*/)?index\.html$ https://www.mastercodeweb.com/$1 [R=301,L]
+
   # If HTTP  OR  host is not www → redirect to canonical https://www.*
   RewriteCond %{HTTPS} off [OR]
   RewriteCond %{HTTP_HOST} !^www\. [NC]

@@ -14,7 +14,7 @@ export function initSearch() {
   ======================== */
 
   const pages = [
-    { title: "Inicio", url: "/index.html", category: "Página" },
+    { title: "Inicio", url: "/", category: "Página" },
     { title: "Servicios", url: "/pages/servicios.html", category: "Página" },
     { title: "Precios", url: "/pages/precios.html", category: "Página" },
     { title: "Presupuesto", url: "/pages/presupuesto.html", category: "Página" },
