@@ -353,7 +353,7 @@ function buildOwnerHtml(
                 <a href="mailto:contacto@mastercodeweb.com"
                    style="color:#9ca3af;text-decoration:none">contacto@mastercodeweb.com</a>
                 &nbsp;·&nbsp;
-                <a href="https://mastercodeweb.com"
+                <a href="https://www.mastercodeweb.com/"
                    style="color:#9ca3af;text-decoration:none">mastercodeweb.com</a>
               </p>
             </td>
@@ -496,14 +496,14 @@ function buildClientHtml(
                   <td align="center">
                     <!--[if mso]>
                     <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml"
-                      href="https://mastercodeweb.com"
+                      href="https://www.mastercodeweb.com/"
                       style="height:50px;v-text-anchor:middle;width:240px;"
                       arcsize="20%" stroke="f" fillcolor="#1a56db">
                     <w:anchorlock/>
                     <center style="color:#ffffff;font-family:Arial,Helvetica,sans-serif;font-size:15px;font-weight:700">Visitar MasterCodeWeb</center>
                     </v:roundrect><![endif]-->
                     <!--[if !mso]><!-->
-                    <a href="https://mastercodeweb.com"
+                    <a href="https://www.mastercodeweb.com/"
                        style="display:inline-block;padding:15px 36px;background-color:#1a56db;
                               color:#ffffff;font-family:Arial,Helvetica,sans-serif;font-size:15px;
                               font-weight:700;line-height:1;text-decoration:none;border-radius:10px">
@@ -529,7 +529,7 @@ function buildClientHtml(
                   contacto@mastercodeweb.com
                 </a>
                 <span style="color:#d1d5db">&nbsp;·&nbsp;</span>
-                <a href="https://mastercodeweb.com"
+                <a href="https://www.mastercodeweb.com/"
                    style="color:#6b7280;text-decoration:none" class="dm-link">
                   mastercodeweb.com
                 </a>
