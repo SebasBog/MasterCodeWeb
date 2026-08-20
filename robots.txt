@@ -4,9 +4,6 @@ Allow: /
 # System pages (noindex also set in meta)
 Disallow: /pages/success.html
 Disallow: /pages/cancel.html
-Disallow: /pages/checkout-pro.html
-Disallow: /pages/checkout-basico.html
-Disallow: /pages/checkout-premium.html
 
 # Demos (noindex in meta; crawling allowed so search engines can read the noindex directive)
 
