@@ -37,102 +37,93 @@ content="Diseño web en Torremolinos para hoteles, restaurantes y alquiler vacac
 <!-- SCHEMA: LocalBusiness + Service + FAQPage -->
 <script type="application/ld+json">
 {
-"@context": "https://schema.org",
-"@graph": [
-
-{
-"@type": "LocalBusiness",
-"name": "MasterCodeWeb",
-"url": "https://www.mastercodeweb.com",
-"telephone": "+34680762047",
-"address": {
-"@type": "PostalAddress",
-"streetAddress": "Calle Camino de Vélez 8",
-"addressLocality": "Algarrobo",
-"addressRegion": "Málaga",
-"postalCode": "29750",
-"addressCountry": "ES"
-},
-"areaServed": [
-{ "@type": "Place", "name": "Torremolinos" },
-{ "@type": "Place", "name": "La Carihuela" },
-{ "@type": "Place", "name": "Costa del Sol" }
-]
-},
-
-{
-"@type": "Service",
-"name": "Diseño Web en Torremolinos",
-"description": "Diseño y desarrollo de páginas web profesionales para hoteles, restaurantes, alquiler vacacional y negocios turísticos en Torremolinos. Webs multilingüe con sistema de reservas online integrado.",
-"provider": { "@type": "LocalBusiness", "name": "MasterCodeWeb" },
-"areaServed": [
-{ "@type": "Place", "name": "Torremolinos" },
-{ "@type": "Place", "name": "La Carihuela" },
-{ "@type": "Place", "name": "Playamar" },
-{ "@type": "Place", "name": "Costa del Sol" }
-],
-"offers": {
-"@type": "Offer",
-"price": "349",
-"priceCurrency": "EUR"
-}
-},
-
-{
-"@type": "FAQPage",
-"mainEntity": [
-{
-"@type": "Question",
-"name": "¿Cuánto cuesta una página web en Torremolinos?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Una página web profesional en Torremolinos cuesta desde 349€ con precio fijo. Para hoteles, apartamentos turísticos o restaurantes que necesitan sistema de reservas online integrado, el presupuesto se ajusta según las funcionalidades. Sin cuotas mensuales obligatorias."
-}
-},
-{
-"@type": "Question",
-"name": "¿Podéis integrar un sistema de reservas online en mi web?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Sí. Integramos motores de reserva para hoteles y apartamentos, sistemas de reserva de mesa para restaurantes y formularios de disponibilidad para alquiler vacacional, de forma que el cliente reserve directamente en tu web sin pasar por un portal externo."
-}
-},
-{
-"@type": "Question",
-"name": "Tengo un apartamento en Airbnb o Booking, ¿me interesa tener web propia?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Sí. Una web propia te permite recibir reservas directas sin pagar la comisión de Airbnb o Booking (hasta un 15-20% por reserva). Muchos propietarios en Torremolinos usan su web propia como canal adicional, manteniendo los portales como complemento, no como única vía de reserva."
-}
-},
-{
-"@type": "Question",
-"name": "¿Hacéis webs en varios idiomas para clientes internacionales?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Sí. Torremolinos recibe turismo y residentes de Reino Unido, Alemania, Países Nórdicos y otros países, así que es habitual crear webs en español e inglés como mínimo, y añadir alemán, sueco o finlandés según el perfil de cliente de tu negocio."
-}
-},
-{
-"@type": "Question",
-"name": "¿Cuánto tiempo tarda en estar lista la web?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "El plazo estándar es de 5 a 7 días laborables desde que confirmamos el proyecto y recibimos los materiales (textos, fotos, logo). Para webs con motor de reservas o varios idiomas, el plazo se acuerda por escrito en el presupuesto."
-}
-},
-{
-"@type": "Question",
-"name": "¿Hacéis webs para restaurantes y bares de zona turística?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Sí. Creamos webs para restaurantes y bares de calle San Miguel, La Carihuela y el paseo marítimo: carta en varios idiomas, fotos, ubicación con mapa y reserva de mesa online o enlace directo a WhatsApp."
-}
-}
-]
-}
-
-]
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "Diseño Web en Torremolinos",
+      "description": "Diseño y desarrollo de páginas web profesionales para hoteles, restaurantes, alquiler vacacional y negocios turísticos en Torremolinos. Webs multilingüe con sistema de reservas online integrado.",
+      "provider": {
+        "@id": "https://www.mastercodeweb.com/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Torremolinos"
+        },
+        {
+          "@type": "Place",
+          "name": "La Carihuela"
+        },
+        {
+          "@type": "Place",
+          "name": "Playamar"
+        },
+        {
+          "@type": "Place",
+          "name": "Costa del Sol"
+        }
+      ],
+      "offers": {
+        "@type": "Offer",
+        "price": "349",
+        "priceCurrency": "EUR"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Cuánto cuesta una página web en Torremolinos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Una página web profesional en Torremolinos cuesta desde 349€ con precio fijo. Para hoteles, apartamentos turísticos o restaurantes que necesitan sistema de reservas online integrado, el presupuesto se ajusta según las funcionalidades. Sin cuotas mensuales obligatorias."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Podéis integrar un sistema de reservas online en mi web?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Integramos motores de reserva para hoteles y apartamentos, sistemas de reserva de mesa para restaurantes y formularios de disponibilidad para alquiler vacacional, de forma que el cliente reserve directamente en tu web sin pasar por un portal externo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Tengo un apartamento en Airbnb o Booking, ¿me interesa tener web propia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Una web propia te permite recibir reservas directas sin pagar la comisión de Airbnb o Booking (hasta un 15-20% por reserva). Muchos propietarios en Torremolinos usan su web propia como canal adicional, manteniendo los portales como complemento, no como única vía de reserva."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Hacéis webs en varios idiomas para clientes internacionales?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Torremolinos recibe turismo y residentes de Reino Unido, Alemania, Países Nórdicos y otros países, así que es habitual crear webs en español e inglés como mínimo, y añadir alemán, sueco o finlandés según el perfil de cliente de tu negocio."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuánto tiempo tarda en estar lista la web?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El plazo estándar es de 5 a 7 días laborables desde que confirmamos el proyecto y recibimos los materiales (textos, fotos, logo). Para webs con motor de reservas o varios idiomas, el plazo se acuerda por escrito en el presupuesto."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Hacéis webs para restaurantes y bares de zona turística?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Creamos webs para restaurantes y bares de calle San Miguel, La Carihuela y el paseo marítimo: carta en varios idiomas, fotos, ubicación con mapa y reserva de mesa online o enlace directo a WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
 }
 </script>
 

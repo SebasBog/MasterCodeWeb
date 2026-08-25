@@ -37,90 +37,75 @@ content="Desarrollamos la lógica de negocio de tu web en Málaga: formularios i
 <!-- SCHEMA: LocalBusiness + Service + FAQPage -->
 <script type="application/ld+json">
 {
-"@context": "https://schema.org",
-"@graph": [
-
-{
-"@type": "LocalBusiness",
-"name": "MasterCodeWeb",
-"url": "https://www.mastercodeweb.com",
-"telephone": "+34680762047",
-"address": {
-"@type": "PostalAddress",
-"streetAddress": "Calle Camino de Vélez 8",
-"addressLocality": "Algarrobo",
-"addressRegion": "Málaga",
-"postalCode": "29750",
-"addressCountry": "ES"
-},
-"geo": {
-"@type": "GeoCoordinates",
-"latitude": 36.7432,
-"longitude": -4.0472
-}
-},
-
-{
-"@type": "Service",
-"name": "Aplicaciones Web a Medida en Málaga",
-"description": "Desarrollo de aplicaciones web con lógica de negocio: formularios inteligentes, pagos con Stripe, suscripciones recurrentes y email automático para empresas en Málaga.",
-"provider": { "@type": "LocalBusiness", "name": "MasterCodeWeb" },
-"areaServed": { "@type": "Place", "name": "Málaga" },
-"offers": {
-"@type": "Offer",
-"price": "349",
-"priceCurrency": "EUR",
-"priceSpecification": { "@type": "PriceSpecification", "minPrice": "349" }
-}
-},
-
-{
-"@type": "FAQPage",
-"mainEntity": [
-{
-"@type": "Question",
-"name": "¿Qué diferencia hay entre una web y una aplicación web?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Una web informativa muestra contenido estático: quiénes somos, servicios, contacto. Una aplicación web ejecuta lógica de negocio: procesa un formulario y envía un email automático, cobra a un cliente con tarjeta, gestiona una suscripción mensual o guarda datos de forma segura. En MasterCodeWeb desarrollamos esa capa funcional sobre el código HTML/CSS/JS de tu web, sin necesidad de frameworks pesados ni gestores de contenido."
-}
-},
-{
-"@type": "Question",
-"name": "¿Cuánto cuesta desarrollar una aplicación web en Málaga?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Depende de la funcionalidad. Un formulario con email automático y anti-spam puede incluirse desde nuestro plan Básico (349€). Una web con pasarela de pago Stripe cuesta desde 699€. Una plataforma con suscripciones recurrentes, portal de cliente y emails automáticos comienza en 1.499€. Siempre trabajamos con presupuesto fijo: sin sorpresas ni costes por hora."
-}
-},
-{
-"@type": "Question",
-"name": "¿Hacéis aplicaciones móviles (iOS o Android)?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "No. Nuestro trabajo es el desarrollo web: páginas y aplicaciones que funcionan en el navegador. No desarrollamos apps nativas para App Store ni Google Play. Si necesitas una app móvil, podemos orientarte hacia el profesional adecuado, pero no es algo que hagamos nosotros hoy."
-}
-},
-{
-"@type": "Question",
-"name": "¿Necesito contratar hosting aparte para mi aplicación web?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Sí. Nosotros desarrollamos y entregamos el código; el hosting lo contrata el cliente directamente. Recomendamos planes de hosting compartido o VPS según la carga esperada. Podemos ayudarte a elegir y configurar el servidor durante el proceso de entrega sin coste adicional."
-}
-},
-{
-"@type": "Question",
-"name": "¿Podré gestionar yo mismo la aplicación después de la entrega?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Depende de la funcionalidad. El contenido HTML puedes editarlo con cualquier editor de texto. Las reseñas aprobadas se gestionan mediante un archivo JSON sencillo. Los pagos y suscripciones se gestionan desde el panel de Stripe (sin código). Para cambios funcionales o nuevas integraciones necesitarás un desarrollador, pero el código es estándar y cualquier programador PHP puede continuarlo."
-}
-}
-]
-}
-
-]
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "Aplicaciones Web a Medida en Málaga",
+      "description": "Desarrollo de aplicaciones web con lógica de negocio: formularios inteligentes, pagos con Stripe, suscripciones recurrentes y email automático para empresas en Málaga.",
+      "provider": {
+        "@id": "https://www.mastercodeweb.com/#organization"
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "Málaga"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "349",
+        "priceCurrency": "EUR",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": "349"
+        }
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Qué diferencia hay entre una web y una aplicación web?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Una web informativa muestra contenido estático: quiénes somos, servicios, contacto. Una aplicación web ejecuta lógica de negocio: procesa un formulario y envía un email automático, cobra a un cliente con tarjeta, gestiona una suscripción mensual o guarda datos de forma segura. En MasterCodeWeb desarrollamos esa capa funcional sobre el código HTML/CSS/JS de tu web, sin necesidad de frameworks pesados ni gestores de contenido."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuánto cuesta desarrollar una aplicación web en Málaga?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depende de la funcionalidad. Un formulario con email automático y anti-spam puede incluirse desde nuestro plan Básico (349€). Una web con pasarela de pago Stripe cuesta desde 699€. Una plataforma con suscripciones recurrentes, portal de cliente y emails automáticos comienza en 1.499€. Siempre trabajamos con presupuesto fijo: sin sorpresas ni costes por hora."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Hacéis aplicaciones móviles (iOS o Android)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Nuestro trabajo es el desarrollo web: páginas y aplicaciones que funcionan en el navegador. No desarrollamos apps nativas para App Store ni Google Play. Si necesitas una app móvil, podemos orientarte hacia el profesional adecuado, pero no es algo que hagamos nosotros hoy."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Necesito contratar hosting aparte para mi aplicación web?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Nosotros desarrollamos y entregamos el código; el hosting lo contrata el cliente directamente. Recomendamos planes de hosting compartido o VPS según la carga esperada. Podemos ayudarte a elegir y configurar el servidor durante el proceso de entrega sin coste adicional."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Podré gestionar yo mismo la aplicación después de la entrega?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depende de la funcionalidad. El contenido HTML puedes editarlo con cualquier editor de texto. Las reseñas aprobadas se gestionan mediante un archivo JSON sencillo. Los pagos y suscripciones se gestionan desde el panel de Stripe (sin código). Para cambios funcionales o nuevas integraciones necesitarás un desarrollador, pero el código es estándar y cualquier programador PHP puede continuarlo."
+          }
+        }
+      ]
+    }
+  ]
 }
 </script>
 

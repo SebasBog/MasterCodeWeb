@@ -66,53 +66,66 @@
 
     <!-- Schema: Service ItemList -->
     <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Servicios MasterCodeWeb",
+  "itemListElement": [
     {
-      "@context": "https://schema.org",
-      "@type": "ItemList",
-      "name": "Servicios MasterCodeWeb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "item": {
-            "@type": "Service",
-            "name": "Diseño web profesional",
-            "description": "Páginas web modernas, rápidas y optimizadas para convertir visitas en clientes. 100% adaptado a móvil con SEO técnico incluido desde el primer día.",
-            "url": "https://www.mastercodeweb.com/servicios/diseno-web-profesional.html",
-            "provider": {"@type": "Organization", "name": "MasterCodeWeb"},
-            "areaServed": "ES",
-            "offers": {"@type": "Offer", "price": "349", "priceCurrency": "EUR"}
-          }
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "Service",
+        "name": "Diseño web profesional",
+        "description": "Páginas web modernas, rápidas y optimizadas para convertir visitas en clientes. 100% adaptado a móvil con SEO técnico incluido desde el primer día.",
+        "url": "https://www.mastercodeweb.com/servicios/diseno-web-profesional.html",
+        "provider": {
+          "@id": "https://www.mastercodeweb.com/#organization"
         },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "item": {
-            "@type": "Service",
-            "name": "Tiendas online",
-            "description": "Tiendas online optimizadas para vender con carrito, pasarelas de pago seguras y SEO para productos y categorías.",
-            "url": "https://www.mastercodeweb.com/servicios/tienda-online-profesional.html",
-            "provider": {"@type": "Organization", "name": "MasterCodeWeb"},
-            "areaServed": "ES",
-            "offers": {"@type": "Offer", "price": "699", "priceCurrency": "EUR"}
-          }
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "item": {
-            "@type": "Service",
-            "name": "SEO técnico",
-            "description": "Optimización técnica completa: velocidad, Core Web Vitals, estructura de URLs, metadatos y datos estructurados para aparecer en Google.",
-            "url": "https://www.mastercodeweb.com/servicios/optimizacion-seo-tecnica.html",
-            "provider": {"@type": "Organization", "name": "MasterCodeWeb"},
-            "areaServed": "ES",
-            "offers": {"@type": "Offer", "price": "349", "priceCurrency": "EUR"}
-          }
+        "areaServed": "ES",
+        "offers": {
+          "@type": "Offer",
+          "price": "349",
+          "priceCurrency": "EUR"
         }
-      ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "Service",
+        "name": "Tiendas online",
+        "description": "Tiendas online optimizadas para vender con carrito, pasarelas de pago seguras y SEO para productos y categorías.",
+        "url": "https://www.mastercodeweb.com/servicios/tienda-online-profesional.html",
+        "provider": {
+          "@id": "https://www.mastercodeweb.com/#organization"
+        },
+        "areaServed": "ES"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "Service",
+        "name": "SEO técnico",
+        "description": "Optimización técnica completa: velocidad, Core Web Vitals, estructura de URLs, metadatos y datos estructurados para aparecer en Google.",
+        "url": "https://www.mastercodeweb.com/servicios/optimizacion-seo-tecnica.html",
+        "provider": {
+          "@id": "https://www.mastercodeweb.com/#organization"
+        },
+        "areaServed": "ES",
+        "offers": {
+          "@type": "Offer",
+          "price": "349",
+          "priceCurrency": "EUR"
+        }
+      }
     }
-    </script>
+  ]
+}
+</script>
 
     <script type="application/ld+json">
     {

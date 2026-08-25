@@ -37,98 +37,85 @@ content="Servicio de mantenimiento web en Málaga desde 29€/mes. Actualizacion
 <!-- SCHEMA: LocalBusiness + Service + FAQPage -->
 <script type="application/ld+json">
 {
-"@context": "https://schema.org",
-"@graph": [
-
-{
-"@type": "LocalBusiness",
-"name": "MasterCodeWeb",
-"url": "https://www.mastercodeweb.com",
-"telephone": "+34680762047",
-"address": {
-"@type": "PostalAddress",
-"streetAddress": "Calle Camino de Vélez 8",
-"addressLocality": "Algarrobo",
-"addressRegion": "Málaga",
-"postalCode": "29750",
-"addressCountry": "ES"
-}
-},
-
-{
-"@type": "Service",
-"name": "Mantenimiento Web en Málaga",
-"description": "Servicio de mantenimiento web para negocios en Málaga. Actualizaciones, seguridad, copias de seguridad, cambios de contenido y soporte técnico en 24h. Sin permanencia.",
-"provider": { "@type": "LocalBusiness", "name": "MasterCodeWeb" },
-"areaServed": { "@type": "Place", "name": "Málaga" },
-"offers": {
-"@type": "Offer",
-"price": "29",
-"priceCurrency": "EUR",
-"priceSpecification": {
-"@type": "UnitPriceSpecification",
-"price": "29",
-"priceCurrency": "EUR",
-"unitText": "mes"
-}
-}
-},
-
-{
-"@type": "FAQPage",
-"mainEntity": [
-{
-"@type": "Question",
-"name": "¿Cuánto cuesta el mantenimiento web en Málaga?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "El mantenimiento web en Málaga cuesta desde 29€/mes con el Plan Básico. El Plan Pro incluye más horas de cambios y cuesta 49€/mes. El Plan Premium, con soporte prioritario y cambios ilimitados, cuesta 149€/mes. Todos sin permanencia: puedes cancelar cuando quieras."
-}
-},
-{
-"@type": "Question",
-"name": "¿Qué pasa si no hago mantenimiento a mi web?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Sin mantenimiento, una web en WordPress acumula vulnerabilidades de seguridad, plugins desactualizados que rompen el diseño y pérdida de posicionamiento en Google por errores técnicos. Una web en código propio es más estable, pero igualmente necesita revisiones de seguridad, renovación de dominio y hosting, y actualizaciones de contenido para mantener su posición."
-}
-},
-{
-"@type": "Question",
-"name": "¿El mantenimiento web incluye cambios de contenido?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Sí. Todos los planes incluyen horas de cambios de contenido al mes: añadir nuevos textos, actualizar precios, cambiar imágenes o añadir secciones nuevas. El Plan Básico incluye hasta 1h/mes, el Pro hasta 3h/mes y el Premium incluye cambios ilimitados."
-}
-},
-{
-"@type": "Question",
-"name": "¿Cuánto tiempo tarda en resolverse una incidencia?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Tiempo de respuesta garantizado en 24h laborables para todos los planes. El Plan Premium incluye respuesta prioritaria en menos de 4h. Ante caídas críticas del servidor o pérdida de contenido, actuamos de forma inmediata independientemente del plan."
-}
-},
-{
-"@type": "Question",
-"name": "¿Puedo contratar solo mantenimiento sin haber hecho la web con vosotros?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Sí. Auditamos tu web actual (WordPress o código propio) y te damos un diagnóstico gratuito antes de empezar. Si la web tiene problemas técnicos previos los resolvemos con un presupuesto aparte antes de activar el mantenimiento mensual."
-}
-},
-{
-"@type": "Question",
-"name": "¿Cuál es la diferencia entre mantenimiento WordPress y mantenimiento en código propio?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "En WordPress el mayor trabajo es gestionar actualizaciones de plugins y core que frecuentemente rompen funcionalidades. En webs de código propio el trabajo se centra en actualizaciones de contenido, seguridad del servidor y mejoras técnicas. Son más estables y requieren menos intervenciones de emergencia."
-}
-}
-]
-}
-
-]
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "Mantenimiento Web en Málaga",
+      "description": "Servicio de mantenimiento web para negocios en Málaga. Actualizaciones, seguridad, copias de seguridad, cambios de contenido y soporte técnico en 24h. Sin permanencia.",
+      "provider": {
+        "@id": "https://www.mastercodeweb.com/#organization"
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "Málaga"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "29",
+        "priceCurrency": "EUR",
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "price": "29",
+          "priceCurrency": "EUR",
+          "unitText": "mes"
+        }
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Cuánto cuesta el mantenimiento web en Málaga?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El mantenimiento web en Málaga cuesta desde 29€/mes con el Plan Básico. El Plan Pro incluye más horas de cambios y cuesta 49€/mes. El Plan Premium, con soporte prioritario y cambios ilimitados, cuesta 149€/mes. Todos sin permanencia: puedes cancelar cuando quieras."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué pasa si no hago mantenimiento a mi web?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sin mantenimiento, una web en WordPress acumula vulnerabilidades de seguridad, plugins desactualizados que rompen el diseño y pérdida de posicionamiento en Google por errores técnicos. Una web en código propio es más estable, pero igualmente necesita revisiones de seguridad, renovación de dominio y hosting, y actualizaciones de contenido para mantener su posición."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿El mantenimiento web incluye cambios de contenido?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Todos los planes incluyen horas de cambios de contenido al mes: añadir nuevos textos, actualizar precios, cambiar imágenes o añadir secciones nuevas. El Plan Básico incluye hasta 1h/mes, el Pro hasta 3h/mes y el Premium incluye cambios ilimitados."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuánto tiempo tarda en resolverse una incidencia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tiempo de respuesta garantizado en 24h laborables para todos los planes. El Plan Premium incluye respuesta prioritaria en menos de 4h. Ante caídas críticas del servidor o pérdida de contenido, actuamos de forma inmediata independientemente del plan."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puedo contratar solo mantenimiento sin haber hecho la web con vosotros?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Auditamos tu web actual (WordPress o código propio) y te damos un diagnóstico gratuito antes de empezar. Si la web tiene problemas técnicos previos los resolvemos con un presupuesto aparte antes de activar el mantenimiento mensual."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuál es la diferencia entre mantenimiento WordPress y mantenimiento en código propio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En WordPress el mayor trabajo es gestionar actualizaciones de plugins y core que frecuentemente rompen funcionalidades. En webs de código propio el trabajo se centra en actualizaciones de contenido, seguridad del servidor y mejoras técnicas. Son más estables y requieren menos intervenciones de emergencia."
+          }
+        }
+      ]
+    }
+  ]
 }
 </script>
 

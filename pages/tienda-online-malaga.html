@@ -37,92 +37,74 @@ content="Creamos tu tienda online en Málaga a medida. Sin Shopify, sin WooComme
 <!-- SCHEMA: LocalBusiness + Service + FAQPage -->
 <script type="application/ld+json">
 {
-"@context": "https://schema.org",
-"@graph": [
-
-{
-"@type": "LocalBusiness",
-"name": "MasterCodeWeb",
-"url": "https://www.mastercodeweb.com",
-"telephone": "+34680762047",
-"address": {
-"@type": "PostalAddress",
-"streetAddress": "Calle Camino de Vélez 8",
-"addressLocality": "Algarrobo",
-"addressRegion": "Málaga",
-"postalCode": "29750",
-"addressCountry": "ES"
-}
-},
-
-{
-"@type": "Service",
-"name": "Tienda Online en Málaga",
-"description": "Desarrollo de tiendas online a medida para negocios en Málaga. Sin Shopify ni WooCommerce. Sin comisiones por venta. Diseño propio, SEO incluido, entrega en 10 días.",
-"provider": { "@type": "LocalBusiness", "name": "MasterCodeWeb" },
-"areaServed": { "@type": "Place", "name": "Málaga" },
-"offers": {
-"@type": "Offer",
-"price": "1499",
-"priceCurrency": "EUR"
-}
-},
-
-{
-"@type": "FAQPage",
-"mainEntity": [
-{
-"@type": "Question",
-"name": "¿Cuánto cuesta una tienda online en Málaga?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Una tienda online a medida en Málaga cuesta desde 1.499€ con precio fijo. Incluye diseño a medida, catálogo de productos, pasarela de pago (Stripe), SEO técnico y entrega en 10 días laborables. Sin costes ocultos ni cuotas mensuales de plataforma."
-}
-},
-{
-"@type": "Question",
-"name": "¿Por qué no usar Shopify o WooCommerce para mi tienda en Málaga?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Shopify cobra entre 32€ y 399€ al mes más comisiones por cada venta. WooCommerce necesita plugins de pago, actualizaciones constantes y es más lento. Una tienda en código propio no tiene cuotas mensuales de plataforma ni comisiones: el margen de cada venta es completamente tuyo."
-}
-},
-{
-"@type": "Question",
-"name": "¿Cuántos productos puedo tener en mi tienda online?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "No hay límite de productos. La tienda está optimizada para gestionar desde 10 hasta varios cientos de productos con filtros por categoría, precio y atributos. Si tienes un catálogo muy grande lo valoramos en el presupuesto sin coste adicional."
-}
-},
-{
-"@type": "Question",
-"name": "¿La tienda online incluye pasarela de pago?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Sí. Integramos Stripe (tarjeta de crédito/débito, Google Pay y Apple Pay). Stripe solo cobra una comisión por transacción exitosa, sin cuotas fijas mensuales. Podemos añadir Bizum si lo necesitas."
-}
-},
-{
-"@type": "Question",
-"name": "¿Puedo gestionar los productos yo mismo?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Sí. Entregamos un panel de gestión sencillo para añadir, editar y eliminar productos, gestionar pedidos y ver el estado de las ventas. Incluimos formación básica de uso sin coste adicional."
-}
-},
-{
-"@type": "Question",
-"name": "¿Cuánto tiempo tarda en estar lista mi tienda online?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "La entrega estándar es de 10 días laborables desde que nos facilitas los materiales (logo, fotos de productos, textos). Para catálogos muy amplios acordamos un plazo personalizado en el presupuesto."
-}
-}
-]
-}
-
-]
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "Tienda Online en Málaga",
+      "description": "Desarrollo de tiendas online a medida para negocios en Málaga. Sin Shopify ni WooCommerce. Sin comisiones por venta. Diseño propio, SEO incluido, entrega en 10 días.",
+      "provider": {
+        "@id": "https://www.mastercodeweb.com/#organization"
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "Málaga"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Cuánto cuesta una tienda online en Málaga?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Una tienda online a medida en Málaga cuesta desde 1.499€ con precio fijo. Incluye diseño a medida, catálogo de productos, pasarela de pago (Stripe), SEO técnico y entrega en 10 días laborables. Sin costes ocultos ni cuotas mensuales de plataforma."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Por qué no usar Shopify o WooCommerce para mi tienda en Málaga?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Shopify cobra entre 32€ y 399€ al mes más comisiones por cada venta. WooCommerce necesita plugins de pago, actualizaciones constantes y es más lento. Una tienda en código propio no tiene cuotas mensuales de plataforma ni comisiones: el margen de cada venta es completamente tuyo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuántos productos puedo tener en mi tienda online?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No hay límite de productos. La tienda está optimizada para gestionar desde 10 hasta varios cientos de productos con filtros por categoría, precio y atributos. Si tienes un catálogo muy grande lo valoramos en el presupuesto sin coste adicional."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿La tienda online incluye pasarela de pago?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Integramos Stripe (tarjeta de crédito/débito, Google Pay y Apple Pay). Stripe solo cobra una comisión por transacción exitosa, sin cuotas fijas mensuales. Podemos añadir Bizum si lo necesitas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puedo gestionar los productos yo mismo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Entregamos un panel de gestión sencillo para añadir, editar y eliminar productos, gestionar pedidos y ver el estado de las ventas. Incluimos formación básica de uso sin coste adicional."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuánto tiempo tarda en estar lista mi tienda online?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La entrega estándar es de 10 días laborables desde que nos facilitas los materiales (logo, fotos de productos, textos). Para catálogos muy amplios acordamos un plazo personalizado en el presupuesto."
+          }
+        }
+      ]
+    }
+  ]
 }
 </script>
 

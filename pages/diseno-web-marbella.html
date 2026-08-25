@@ -37,92 +37,81 @@ content="Diseño web en Marbella para negocios de lujo, turismo e inmobiliaria. 
 <!-- SCHEMA: LocalBusiness + Service + FAQPage -->
 <script type="application/ld+json">
 {
-"@context": "https://schema.org",
-"@graph": [
-
-{
-"@type": "LocalBusiness",
-"name": "MasterCodeWeb",
-"url": "https://www.mastercodeweb.com",
-"telephone": "+34680762047",
-"address": {
-"@type": "PostalAddress",
-"streetAddress": "Calle Camino de Vélez 8",
-"addressLocality": "Algarrobo",
-"addressRegion": "Málaga",
-"postalCode": "29750",
-"addressCountry": "ES"
-},
-"areaServed": [
-{ "@type": "Place", "name": "Marbella" },
-{ "@type": "Place", "name": "Costa del Sol" }
-]
-},
-
-{
-"@type": "Service",
-"name": "Diseño Web en Marbella",
-"description": "Diseño y desarrollo de páginas web profesionales para negocios en Marbella. Webs multilingüe en español, inglés y alemán para el sector lujo, turismo, inmobiliaria y hostelería de la Costa del Sol.",
-"provider": { "@type": "LocalBusiness", "name": "MasterCodeWeb" },
-"areaServed": [
-{ "@type": "Place", "name": "Marbella" },
-{ "@type": "Place", "name": "Puerto Banús" },
-{ "@type": "Place", "name": "Costa del Sol" }
-],
-"offers": {
-"@type": "Offer",
-"price": "349",
-"priceCurrency": "EUR"
-}
-},
-
-{
-"@type": "FAQPage",
-"mainEntity": [
-{
-"@type": "Question",
-"name": "¿Cuánto cuesta una página web en Marbella?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Una página web profesional en Marbella cuesta desde 349€ con precio fijo. El precio incluye diseño a medida, SEO técnico, Google Analytics y entrega en 5–7 días. Para webs multilingüe (español + inglés + alemán) el precio parte de 699€. Sin cuotas mensuales ni costes ocultos."
-}
-},
-{
-"@type": "Question",
-"name": "¿Creáis webs en inglés y alemán para negocios en Marbella?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Sí. La mayoría de negocios en Marbella tienen clientes internacionales anglófonos y germanófonos. Desarrollamos webs multilingüe con URLs por idioma (/en/, /de/) y hreflang correctamente implementado para que Google indexe cada versión en el mercado correspondiente."
-}
-},
-{
-"@type": "Question",
-"name": "¿Cuánto tiempo tarda en estar lista una web en Marbella?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "El plazo estándar es de 5 a 7 días laborables para una web en un idioma. Para webs multilingüe o proyectos con catálogo de servicios extenso el plazo habitual es de 10 a 14 días. Te lo confirmamos por escrito en el presupuesto antes de empezar."
-}
-},
-{
-"@type": "Question",
-"name": "¿Necesito WordPress para tener una web profesional en Marbella?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "No. Construimos webs en HTML, CSS y JavaScript puro sin depender de WordPress ni de plugins de terceros. El resultado es una web más rápida (carga en menos de 1 segundo), más segura y sin actualizaciones que puedan romper el diseño. Para el mercado premium de Marbella, la velocidad y la imagen son críticas."
-}
-},
-{
-"@type": "Question",
-"name": "¿Podéis hacer webs para negocios de lujo o inmobiliaria en Marbella?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Sí. Tenemos experiencia en webs para inmobiliarias de lujo, hoteles boutique, restaurantes gourmet, empresas náuticas y servicios de alto valor en Marbella y Puerto Banús. El diseño refleja el nivel premium del negocio y está optimizado para atraer clientes internacionales desde Google."
-}
-}
-]
-}
-
-]
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "Diseño Web en Marbella",
+      "description": "Diseño y desarrollo de páginas web profesionales para negocios en Marbella. Webs multilingüe en español, inglés y alemán para el sector lujo, turismo, inmobiliaria y hostelería de la Costa del Sol.",
+      "provider": {
+        "@id": "https://www.mastercodeweb.com/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Marbella"
+        },
+        {
+          "@type": "Place",
+          "name": "Puerto Banús"
+        },
+        {
+          "@type": "Place",
+          "name": "Costa del Sol"
+        }
+      ],
+      "offers": {
+        "@type": "Offer",
+        "price": "349",
+        "priceCurrency": "EUR"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Cuánto cuesta una página web en Marbella?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Una página web profesional en Marbella cuesta desde 349€ con precio fijo. El precio incluye diseño a medida, SEO técnico, Google Analytics y entrega en 5–7 días. Para webs multilingüe (español + inglés + alemán) el precio parte de 699€. Sin cuotas mensuales ni costes ocultos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Creáis webs en inglés y alemán para negocios en Marbella?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. La mayoría de negocios en Marbella tienen clientes internacionales anglófonos y germanófonos. Desarrollamos webs multilingüe con URLs por idioma (/en/, /de/) y hreflang correctamente implementado para que Google indexe cada versión en el mercado correspondiente."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuánto tiempo tarda en estar lista una web en Marbella?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El plazo estándar es de 5 a 7 días laborables para una web en un idioma. Para webs multilingüe o proyectos con catálogo de servicios extenso el plazo habitual es de 10 a 14 días. Te lo confirmamos por escrito en el presupuesto antes de empezar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Necesito WordPress para tener una web profesional en Marbella?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Construimos webs en HTML, CSS y JavaScript puro sin depender de WordPress ni de plugins de terceros. El resultado es una web más rápida (carga en menos de 1 segundo), más segura y sin actualizaciones que puedan romper el diseño. Para el mercado premium de Marbella, la velocidad y la imagen son críticas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Podéis hacer webs para negocios de lujo o inmobiliaria en Marbella?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Tenemos experiencia en webs para inmobiliarias de lujo, hoteles boutique, restaurantes gourmet, empresas náuticas y servicios de alto valor en Marbella y Puerto Banús. El diseño refleja el nivel premium del negocio y está optimizado para atraer clientes internacionales desde Google."
+          }
+        }
+      ]
+    }
+  ]
 }
 </script>
 

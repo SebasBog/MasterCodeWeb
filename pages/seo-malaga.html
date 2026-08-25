@@ -41,64 +41,50 @@ SCHEMA LOCAL BUSINESS + SERVICE
 
 <script type="application/ld+json">
 {
-"@context": "https://schema.org",
-"@graph": [
-
-{
-"@type": "LocalBusiness",
-"name": "MasterCodeWeb",
-"url": "https://www.mastercodeweb.com",
-"address": {
-"@type": "PostalAddress",
-"streetAddress": "Calle Camino de Vélez 8",
-"addressLocality": "Algarrobo",
-"addressRegion": "Málaga",
-"postalCode": "29750",
-"addressCountry": "ES"
-}
-},
-
-{
-"@type": "Service",
-"name": "SEO en Málaga",
-"description": "Posicionamiento web en Google para empresas en Málaga",
-"areaServed": {
-"@type": "Place",
-"name": "Málaga"
-}
-},
-
-{
-"@type": "FAQPage",
-"mainEntity": [
-{
-"@type": "Question",
-"name": "¿Cuánto tarda el SEO en dar resultados?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Los primeros resultados apreciables se ven habitualmente entre 3 y 6 meses desde el inicio del trabajo SEO. El plazo depende de la competencia de las palabras clave, el estado técnico de la web y la frecuencia con la que Google la rastrea. El SEO es una estrategia de medio y largo plazo: los resultados se acumulan con el tiempo y son más estables que los de la publicidad de pago."
-}
-},
-{
-"@type": "Question",
-"name": "¿Cuánto cuesta el servicio SEO en Málaga?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "El coste del SEO depende del volumen de trabajo necesario y la competencia del sector. No ofrecemos tarifas genéricas porque cada proyecto es diferente. Hacemos un análisis previo de tu situación y te damos un presupuesto personalizado sin compromiso. Puedes solicitarlo por WhatsApp o mediante el formulario de contacto."
-}
-},
-{
-"@type": "Question",
-"name": "¿Es mejor el SEO que la publicidad en Google?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Depende del momento del negocio. La publicidad en Google (Google Ads) genera visitas desde el primer día, pero el tráfico desaparece en cuanto dejas de pagar. El SEO tarda más en arrancar, pero el tráfico que genera no tiene coste por clic y se mantiene incluso si paras la inversión durante un tiempo. A medio y largo plazo, el SEO suele tener mejor retorno de inversión para negocios locales."
-}
-}
-]
-}
-
-]
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "SEO en Málaga",
+      "description": "Posicionamiento web en Google para empresas en Málaga",
+      "areaServed": {
+        "@type": "Place",
+        "name": "Málaga"
+      },
+      "provider": {
+        "@id": "https://www.mastercodeweb.com/#organization"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Cuánto tarda el SEO en dar resultados?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Los primeros resultados apreciables se ven habitualmente entre 3 y 6 meses desde el inicio del trabajo SEO. El plazo depende de la competencia de las palabras clave, el estado técnico de la web y la frecuencia con la que Google la rastrea. El SEO es una estrategia de medio y largo plazo: los resultados se acumulan con el tiempo y son más estables que los de la publicidad de pago."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuánto cuesta el servicio SEO en Málaga?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El coste del SEO depende del volumen de trabajo necesario y la competencia del sector. No ofrecemos tarifas genéricas porque cada proyecto es diferente. Hacemos un análisis previo de tu situación y te damos un presupuesto personalizado sin compromiso. Puedes solicitarlo por WhatsApp o mediante el formulario de contacto."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Es mejor el SEO que la publicidad en Google?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depende del momento del negocio. La publicidad en Google (Google Ads) genera visitas desde el primer día, pero el tráfico desaparece en cuanto dejas de pagar. El SEO tarda más en arrancar, pero el tráfico que genera no tiene coste por clic y se mantiene incluso si paras la inversión durante un tiempo. A medio y largo plazo, el SEO suele tener mejor retorno de inversión para negocios locales."
+          }
+        }
+      ]
+    }
+  ]
 }
 </script>
 

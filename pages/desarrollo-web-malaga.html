@@ -37,85 +37,75 @@ content="Desarrollo web en Málaga en HTML, CSS y JavaScript puro. Sin WordPress
 <!-- SCHEMA: LocalBusiness + Service + FAQPage -->
 <script type="application/ld+json">
 {
-"@context": "https://schema.org",
-"@graph": [
-
-{
-"@type": "LocalBusiness",
-"name": "MasterCodeWeb",
-"url": "https://www.mastercodeweb.com",
-"telephone": "+34680762047",
-"address": {
-"@type": "PostalAddress",
-"streetAddress": "Calle Camino de Vélez 8",
-"addressLocality": "Algarrobo",
-"addressRegion": "Málaga",
-"postalCode": "29750",
-"addressCountry": "ES"
-}
-},
-
-{
-"@type": "Service",
-"name": "Desarrollo Web en Málaga",
-"description": "Desarrollo web a medida en HTML, CSS y JavaScript puro para empresas y autónomos en Málaga. Sin WordPress ni plugins.",
-"provider": { "@type": "LocalBusiness", "name": "MasterCodeWeb" },
-"areaServed": { "@type": "Place", "name": "Málaga" },
-"offers": {
-"@type": "Offer",
-"price": "349",
-"priceCurrency": "EUR",
-"priceSpecification": { "@type": "PriceSpecification", "minPrice": "349" }
-}
-},
-
-{
-"@type": "FAQPage",
-"mainEntity": [
-{
-"@type": "Question",
-"name": "¿Cuál es la diferencia entre diseño web y desarrollo web?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "El diseño web se centra en la apariencia visual: colores, tipografía y estructura. El desarrollo web es la parte técnica: el código que hace funcionar la web, las integraciones con APIs y las funcionalidades a medida. En MasterCodeWeb hacemos los dos desde cero en HTML, CSS y JavaScript."
-}
-},
-{
-"@type": "Question",
-"name": "¿Por qué desarrollar en HTML/CSS/JS en lugar de WordPress?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "WordPress depende de plugins que se desactualizan, ralentizan la web y abren vulnerabilidades de seguridad. Una web en código propio carga en menos de 1 segundo, no tiene plugins que hackear y el código es completamente tuyo. Puedes llevarlo a cualquier otro desarrollador en el futuro sin coste."
-}
-},
-{
-"@type": "Question",
-"name": "¿Cuánto cuesta el desarrollo web en Málaga?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Nuestros proyectos de desarrollo web en Málaga comienzan en 349€ para una landing page completa con SEO. Una web corporativa de hasta 6 páginas cuesta 699€ y una web con tienda online 1.499€. Todos los precios son fijos, sin costes ocultos."
-}
-},
-{
-"@type": "Question",
-"name": "¿Cuánto tiempo tarda en estar lista una web?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Una landing page está lista en 5 días laborables. Una web corporativa en 7 días. Una tienda online en 10 días. Estos plazos se cumplen cuando el cliente facilita los materiales básicos (logo, textos, imágenes) a tiempo."
-}
-},
-{
-"@type": "Question",
-"name": "¿Puedo llevar el código a otro proveedor si lo necesito?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Sí, el código es completamente tuyo desde el primer día. No hay dependencia de nuestra plataforma ni contrato de permanencia. Cualquier desarrollador puede continuar el trabajo con el código que entregamos."
-}
-}
-]
-}
-
-]
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "Desarrollo Web en Málaga",
+      "description": "Desarrollo web a medida en HTML, CSS y JavaScript puro para empresas y autónomos en Málaga. Sin WordPress ni plugins.",
+      "provider": {
+        "@id": "https://www.mastercodeweb.com/#organization"
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "Málaga"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "349",
+        "priceCurrency": "EUR",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": "349"
+        }
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Cuál es la diferencia entre diseño web y desarrollo web?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El diseño web se centra en la apariencia visual: colores, tipografía y estructura. El desarrollo web es la parte técnica: el código que hace funcionar la web, las integraciones con APIs y las funcionalidades a medida. En MasterCodeWeb hacemos los dos desde cero en HTML, CSS y JavaScript."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Por qué desarrollar en HTML/CSS/JS en lugar de WordPress?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "WordPress depende de plugins que se desactualizan, ralentizan la web y abren vulnerabilidades de seguridad. Una web en código propio carga en menos de 1 segundo, no tiene plugins que hackear y el código es completamente tuyo. Puedes llevarlo a cualquier otro desarrollador en el futuro sin coste."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuánto cuesta el desarrollo web en Málaga?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nuestros proyectos de desarrollo web en Málaga comienzan en 349€ para una landing page completa con SEO. Una web corporativa de hasta 6 páginas cuesta 699€ y una web con tienda online 1.499€. Todos los precios son fijos, sin costes ocultos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuánto tiempo tarda en estar lista una web?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Una landing page está lista en 5 días laborables. Una web corporativa en 7 días. Una tienda online en 10 días. Estos plazos se cumplen cuando el cliente facilita los materiales básicos (logo, textos, imágenes) a tiempo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puedo llevar el código a otro proveedor si lo necesito?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí, el código es completamente tuyo desde el primer día. No hay dependencia de nuestra plataforma ni contrato de permanencia. Cualquier desarrollador puede continuar el trabajo con el código que entregamos."
+          }
+        }
+      ]
+    }
+  ]
 }
 </script>
 

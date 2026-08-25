@@ -67,36 +67,87 @@
 
     <!-- Schema: CollectionPage + ItemList -->
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "CollectionPage",
-      "name": "Portfolio · Demos de Proyectos Web — MasterCodeWeb",
-      "description": "Proyectos de demostración de MasterCodeWeb que muestran arquitectura web, SEO técnico y diseño orientado a conversión para distintos sectores.",
-      "url": "https://www.mastercodeweb.com/pages/portfolio.html",
-      "creator": {
-        "@type": "Organization",
-        "name": "MasterCodeWeb",
-        "url": "https://www.mastercodeweb.com"
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Portfolio · Demos de Proyectos Web — MasterCodeWeb",
+  "description": "Proyectos de demostración de MasterCodeWeb que muestran arquitectura web, SEO técnico y diseño orientado a conversión para distintos sectores.",
+  "url": "https://www.mastercodeweb.com/pages/portfolio.html",
+  "creator": {
+    "@type": "Organization",
+    "name": "MasterCodeWeb",
+    "url": "https://www.mastercodeweb.com",
+    "@id": "https://www.mastercodeweb.com/#organization"
+  },
+  "mainEntity": {
+    "@type": "ItemList",
+    "name": "Proyectos de demostración",
+    "numberOfItems": 10,
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "El Olivar · Restaurante Málaga",
+        "description": "Landing page con menú digital, reservas directas y SEO local para hostelería."
       },
-      "mainEntity": {
-        "@type": "ItemList",
-        "name": "Proyectos de demostración",
-        "numberOfItems": 10,
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "El Olivar · Restaurante Málaga", "description": "Landing page con menú digital, reservas directas y SEO local para hostelería." },
-          { "@type": "ListItem", "position": 2, "name": "Dental Marbella · Clínica Dental", "description": "Web para clínica dental con formulario de primera visita y SEO técnico orientado a captación de pacientes." },
-          { "@type": "ListItem", "position": 3, "name": "Despensa del Sur · Tienda Gourmet", "description": "Tienda online para productos gourmet de Andalucía con catálogo y sistema de pedidos." },
-          { "@type": "ListItem", "position": 4, "name": "TopProductos · Afiliados Amazon", "description": "Web de comparativas y guías de compra con integración de afiliados Amazon." },
-          { "@type": "ListItem", "position": 5, "name": "ElectroFácil · Electricista en Málaga", "description": "Web de servicio local optimizada para búsquedas de electricistas en Málaga." },
-          { "@type": "ListItem", "position": 6, "name": "AppFlow · Landing SaaS", "description": "Landing de alto impacto para SaaS con tabla de precios y CTA optimizado para conversión." },
-          { "@type": "ListItem", "position": 7, "name": "FitZone Gym · Centro Deportivo", "description": "Web para gimnasio con horario de clases, servicios y CTA para prueba gratuita." },
-          { "@type": "ListItem", "position": 8, "name": "Casas & Mar · Inmobiliaria", "description": "Web inmobiliaria con catálogo de propiedades y formulario de valoración gratuita." },
-          { "@type": "ListItem", "position": 9, "name": "Buildex · Construcción y Reformas", "description": "Web para empresa de construcción con galería de proyectos y formulario de presupuesto." },
-          { "@type": "ListItem", "position": 10, "name": "Martínez & Asociados · Abogados", "description": "Web corporativa para bufete legal con áreas de práctica y formulario de consulta inicial." }
-        ]
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Dental Marbella · Clínica Dental",
+        "description": "Web para clínica dental con formulario de primera visita y SEO técnico orientado a captación de pacientes."
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Despensa del Sur · Tienda Gourmet",
+        "description": "Tienda online para productos gourmet de Andalucía con catálogo y sistema de pedidos."
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "TopProductos · Afiliados Amazon",
+        "description": "Web de comparativas y guías de compra con integración de afiliados Amazon."
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "ElectroFácil · Electricista en Málaga",
+        "description": "Web de servicio local optimizada para búsquedas de electricistas en Málaga."
+      },
+      {
+        "@type": "ListItem",
+        "position": 6,
+        "name": "AppFlow · Landing SaaS",
+        "description": "Landing de alto impacto para SaaS con tabla de precios y CTA optimizado para conversión."
+      },
+      {
+        "@type": "ListItem",
+        "position": 7,
+        "name": "FitZone Gym · Centro Deportivo",
+        "description": "Web para gimnasio con horario de clases, servicios y CTA para prueba gratuita."
+      },
+      {
+        "@type": "ListItem",
+        "position": 8,
+        "name": "Casas & Mar · Inmobiliaria",
+        "description": "Web inmobiliaria con catálogo de propiedades y formulario de valoración gratuita."
+      },
+      {
+        "@type": "ListItem",
+        "position": 9,
+        "name": "Buildex · Construcción y Reformas",
+        "description": "Web para empresa de construcción con galería de proyectos y formulario de presupuesto."
+      },
+      {
+        "@type": "ListItem",
+        "position": 10,
+        "name": "Martínez & Asociados · Abogados",
+        "description": "Web corporativa para bufete legal con áreas de práctica y formulario de consulta inicial."
       }
-    }
-    </script>
+    ]
+  }
+}
+</script>
 
     <!-- Google Consent Mode v2 -->
     <script>

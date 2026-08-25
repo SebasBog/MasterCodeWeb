@@ -37,101 +37,89 @@ content="Diseño web en Fuengirola para comercios, clínicas y negocios que atie
 <!-- SCHEMA: LocalBusiness + Service + FAQPage -->
 <script type="application/ld+json">
 {
-"@context": "https://schema.org",
-"@graph": [
-
-{
-"@type": "LocalBusiness",
-"name": "MasterCodeWeb",
-"url": "https://www.mastercodeweb.com",
-"telephone": "+34680762047",
-"address": {
-"@type": "PostalAddress",
-"streetAddress": "Calle Camino de Vélez 8",
-"addressLocality": "Algarrobo",
-"addressRegion": "Málaga",
-"postalCode": "29750",
-"addressCountry": "ES"
-},
-"areaServed": [
-{ "@type": "Place", "name": "Fuengirola" },
-{ "@type": "Place", "name": "Los Boliches" },
-{ "@type": "Place", "name": "Costa del Sol" }
-]
-},
-
-{
-"@type": "Service",
-"name": "Diseño Web en Fuengirola",
-"description": "Diseño y desarrollo de páginas web profesionales para comercios, clínicas, inmobiliarias y negocios de Fuengirola que atienden a una amplia comunidad internacional residente durante todo el año.",
-"provider": { "@type": "LocalBusiness", "name": "MasterCodeWeb" },
-"areaServed": [
-{ "@type": "Place", "name": "Fuengirola" },
-{ "@type": "Place", "name": "Los Boliches" },
-{ "@type": "Place", "name": "Costa del Sol" }
-],
-"offers": {
-"@type": "Offer",
-"price": "349",
-"priceCurrency": "EUR"
-}
-},
-
-{
-"@type": "FAQPage",
-"mainEntity": [
-{
-"@type": "Question",
-"name": "¿Cuánto cuesta una página web en Fuengirola?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Una página web profesional en Fuengirola cuesta desde 349€ con precio fijo. Incluye diseño a medida, SEO técnico, Google Analytics y entrega en 5–7 días laborables. Sin cuotas mensuales obligatorias ni costes ocultos."
-}
-},
-{
-"@type": "Question",
-"name": "¿Hacéis webs en varios idiomas para residentes extranjeros?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Sí. Fuengirola tiene una de las comunidades de residentes extranjeros más numerosas de la Costa del Sol, especialmente finlandesa, sueca y británica. Creamos webs en español e inglés como base, con posibilidad de añadir finés o sueco según el perfil de cliente de tu negocio."
-}
-},
-{
-"@type": "Question",
-"name": "¿La web está pensada para turistas o para residentes que viven aquí todo el año?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Para residentes. A diferencia de zonas con turismo de paso, en Fuengirola gran parte de la población extranjera vive aquí de forma permanente o varios meses al año. Esto cambia el enfoque: menos «oferta de última hora» y más confianza, claridad y facilidad para encontrar tu negocio cuando lo necesitan de verdad."
-}
-},
-{
-"@type": "Question",
-"name": "Soy gestoría, clínica o academia de idiomas, ¿podéis explicar trámites a clientes extranjeros?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Sí. Si tu negocio atiende a residentes extranjeros para trámites como NIE, padrón, seguros médicos o clases de español, podemos estructurar tu web para explicar claramente tus servicios en varios idiomas y facilitar el contacto directo por WhatsApp o formulario."
-}
-},
-{
-"@type": "Question",
-"name": "Tengo un comercio de barrio en Fuengirola, ¿me sirve una web?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Sí. Muchos comercios de barrio en Fuengirola compiten por clientela fija, no solo turística. Una web con ubicación clara, horarios, fotos y los idiomas que hablas en el negocio ayuda a que la comunidad internacional residente te encuentre en Google antes de visitarte."
-}
-},
-{
-"@type": "Question",
-"name": "¿Cuánto tiempo tarda en estar lista la web?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "El plazo estándar es de 5 a 7 días laborables desde que confirmamos el proyecto y recibimos los materiales (textos, logo, fotos). Para webs con varios idiomas, el plazo se acuerda por escrito en el presupuesto."
-}
-}
-]
-}
-
-]
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "Diseño Web en Fuengirola",
+      "description": "Diseño y desarrollo de páginas web profesionales para comercios, clínicas, inmobiliarias y negocios de Fuengirola que atienden a una amplia comunidad internacional residente durante todo el año.",
+      "provider": {
+        "@id": "https://www.mastercodeweb.com/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Fuengirola"
+        },
+        {
+          "@type": "Place",
+          "name": "Los Boliches"
+        },
+        {
+          "@type": "Place",
+          "name": "Costa del Sol"
+        }
+      ],
+      "offers": {
+        "@type": "Offer",
+        "price": "349",
+        "priceCurrency": "EUR"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Cuánto cuesta una página web en Fuengirola?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Una página web profesional en Fuengirola cuesta desde 349€ con precio fijo. Incluye diseño a medida, SEO técnico, Google Analytics y entrega en 5–7 días laborables. Sin cuotas mensuales obligatorias ni costes ocultos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Hacéis webs en varios idiomas para residentes extranjeros?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Fuengirola tiene una de las comunidades de residentes extranjeros más numerosas de la Costa del Sol, especialmente finlandesa, sueca y británica. Creamos webs en español e inglés como base, con posibilidad de añadir finés o sueco según el perfil de cliente de tu negocio."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿La web está pensada para turistas o para residentes que viven aquí todo el año?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Para residentes. A diferencia de zonas con turismo de paso, en Fuengirola gran parte de la población extranjera vive aquí de forma permanente o varios meses al año. Esto cambia el enfoque: menos «oferta de última hora» y más confianza, claridad y facilidad para encontrar tu negocio cuando lo necesitan de verdad."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Soy gestoría, clínica o academia de idiomas, ¿podéis explicar trámites a clientes extranjeros?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Si tu negocio atiende a residentes extranjeros para trámites como NIE, padrón, seguros médicos o clases de español, podemos estructurar tu web para explicar claramente tus servicios en varios idiomas y facilitar el contacto directo por WhatsApp o formulario."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Tengo un comercio de barrio en Fuengirola, ¿me sirve una web?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Muchos comercios de barrio en Fuengirola compiten por clientela fija, no solo turística. Una web con ubicación clara, horarios, fotos y los idiomas que hablas en el negocio ayuda a que la comunidad internacional residente te encuentre en Google antes de visitarte."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuánto tiempo tarda en estar lista la web?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El plazo estándar es de 5 a 7 días laborables desde que confirmamos el proyecto y recibimos los materiales (textos, logo, fotos). Para webs con varios idiomas, el plazo se acuerda por escrito en el presupuesto."
+          }
+        }
+      ]
+    }
+  ]
 }
 </script>
 
