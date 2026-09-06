@@ -478,3 +478,112 @@ body.mob-open {
   align-items: center;
   gap: 0.5rem;
 }
+
+
+/* =====================================================
+   HOME-ONLY MOBILE DRAWER PILOT — MCW10-REMEDIATION-004A
+   Scoped exclusively via body.page-home. Additive only —
+   does not modify the shared .mob-overlay rules above,
+   which remain unchanged for every other page.
+===================================================== */
+
+/* ── Backdrop (new element, markup only present when
+   body.page-home is present; harmless if absent) ─── */
+.mob-drawer-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 9998; /* one below .mob-overlay's 9999 */
+  background: rgba(0, 0, 0, 0.55);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.28s ease, visibility 0.28s;
+}
+
+body.page-home .mob-drawer-backdrop.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+@media (min-width: 769px) {
+  .mob-drawer-backdrop { display: none !important; }
+}
+
+/* ── Drawer panel override (Home mobile only) ────── */
+@media (max-width: 768px) {
+
+  body.page-home .mob-overlay {
+    inset: 0 0 0 auto;
+    width: min(88vw, 360px);
+    align-items: stretch;
+    background: rgba(10, 10, 14, 0.98);
+    transform: translateX(100%);
+  }
+
+  body.page-home .mob-overlay.is-open {
+    transform: translateX(0);
+  }
+
+  /* Tighter vertical rhythm */
+  body.page-home .mob-overlay__list {
+    gap: 0.2rem;
+  }
+
+  /* Icon-less rows: re-balanced left/right padding, left-aligned labels */
+  body.page-home .mob-overlay__list a {
+    min-height: 46px;
+    padding: 0.75rem 0.9rem;
+    border-radius: 0.625rem;
+  }
+
+  /* Compact final CTA */
+  body.page-home .mob-overlay__cta .btn {
+    padding: 0.7rem 1.25rem;
+    font-size: 0.9rem;
+    border-radius: 0.625rem;
+  }
+
+  /* ── WhatsApp: refined secondary action, not a second
+     primary button. Smaller, muted, centered, no border.
+     Icon only is WhatsApp-green; text stays neutral so the
+     CTA as a whole doesn't compete with Área Cliente. ── */
+  body.page-home .mob-overlay__whatsapp {
+    align-self: center;
+    width: auto;
+    max-width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    padding: 0.6rem 1.25rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    line-height: 1.35;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.82);
+    background: transparent;
+    border: none;
+    border-radius: 0.625rem;
+    text-decoration: none;
+    transition: color 0.15s ease, background 0.15s ease;
+  }
+
+  body.page-home .mob-overlay__whatsapp svg {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    color: #25d366;
+  }
+
+  body.page-home .mob-overlay__whatsapp:hover,
+  body.page-home .mob-overlay__whatsapp:focus-visible {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.06);
+  }
+
+  body.page-home .mob-overlay__whatsapp:focus-visible {
+    outline: 2px solid rgba(255, 255, 255, 0.4);
+    outline-offset: 2px;
+  }
+}

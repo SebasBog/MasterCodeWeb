@@ -6,9 +6,13 @@
 
 export function initMenu() {
 
-  const toggle  = document.getElementById('menuToggle');
-  const overlay = document.getElementById('mobileOverlay');
+  const toggle   = document.getElementById('menuToggle');
+  const overlay  = document.getElementById('mobileOverlay');
   const closeBtn = document.getElementById('mobileClose');
+
+  /* Home-only drawer backdrop (MCW10-REMEDIATION-004A).
+     Absent on every other page — all uses below are optional-chained. */
+  const backdrop = document.getElementById('mobileOverlayBackdrop');
 
   if (!toggle || !overlay) return;
 
@@ -30,6 +34,7 @@ export function initMenu() {
     toggle.setAttribute('aria-expanded', 'true');
     toggle.setAttribute('aria-label', 'Cerrar menú');
     document.body.classList.add('mob-open');
+    backdrop?.classList.add('is-open');
 
     /* Move focus to first nav link after CSS transition starts */
     requestAnimationFrame(() => {
@@ -46,6 +51,7 @@ export function initMenu() {
     toggle.setAttribute('aria-expanded', 'false');
     toggle.setAttribute('aria-label', 'Abrir menú');
     document.body.classList.remove('mob-open');
+    backdrop?.classList.remove('is-open');
 
     /* Return focus to the toggle that opened the menu */
     toggle.focus();
@@ -83,6 +89,9 @@ export function initMenu() {
 
   /* ── Close button ───────────────────────────────── */
   closeBtn?.addEventListener('click', close);
+
+  /* ── Backdrop click (Home only; no-op if absent) ── */
+  backdrop?.addEventListener('click', close);
 
   /* ── Nav link clicks auto-close ─────────────────── */
   overlay.querySelectorAll('a').forEach((link) =>
